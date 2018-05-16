@@ -9,19 +9,9 @@ namespace HelloWorld
 	{
 		public App ()
 		{
-            //InitializeComponent();
-            //MainPage = new MainPage();
-
-            MainPage = new ContentPage
-            {
-                Content = new Label
-                {
-                    Text = "Welcome Justine-sama!",
-                    VerticalOptions = LayoutOptions.CenterAndExpand,
-                    HorizontalOptions = LayoutOptions.CenterAndExpand
-                }
-            };
-		}
+            InitializeComponent();
+            MainPage = new NavigationPage(new MainPage());
+        }
 
 		protected override void OnStart ()
 		{

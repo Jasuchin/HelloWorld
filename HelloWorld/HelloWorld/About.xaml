@@ -1,8 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="HelloWorld.About">
+             x:Class="HelloWorld.About"
+             Title="About">
     <ContentPage.Content>
-        <Label Text="About"></Label>
+        <Label Text="About"
+               VerticalOptions="Start"
+               HorizontalTextAlignment="Center"
+               IsVisible="True"
+               Font="Large"
+               Margin="20 0"
+               FontAttributes="Bold"
+               TextColor="#00796b" />
     </ContentPage.Content>
 </ContentPage>

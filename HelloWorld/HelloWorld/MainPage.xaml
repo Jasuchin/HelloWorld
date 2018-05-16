@@ -4,8 +4,8 @@
              xmlns:local="clr-namespace:HelloWorld"
              x:Class="HelloWorld.MainPage">
     <StackLayout>
-        <Label Text="Welcome Justine-sama!" />
-        <Label Text="What can I do for you?" />
+        <Label Text="Welcome Justine-sama!" Margin="20 40" />
+        <Label Text="What can I do for you?" Margin="20 40" />
         <Button Text="Sign in" VerticalOptions="EndAndExpand"></Button>
     </StackLayout>
 </ContentPage>
